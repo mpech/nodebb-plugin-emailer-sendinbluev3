@@ -1,0 +1,10 @@
+{
+  "id": "nodebb-plugin-emailer-sendinbluev3",
+  "name": "Emailer for sendinbluev3",
+  "description": "basic sendmail for sendinblue api v3 for NodeBB",
+  "url": "https://github.com/mpech/nodebb-plugin-emailer-sendinbluev3",
+  "library": "./index.js",
+  "hooks": [
+    { "hook": "filter:email.send", "method": "sendmail" }
+  ]
+}
